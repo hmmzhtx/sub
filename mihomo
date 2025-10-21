@@ -1,3 +1,5 @@
+# Clash
+
 proxies:
   - name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s"
     network: ws
