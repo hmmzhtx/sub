@@ -1,34 +1,4 @@
-# Clash
-
 proxies:
-  - name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s"
-    network: ws
-    port: 50001
-    server: 106.252.245.199
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /TelegramU0001F1E8U0001F1F3@WangCai2
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_2|2.2MB/s"
-    network: ws
-    port: 30067
-    server: 112.156.154.95
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔security=tls
-    servername: gaosir.unfeeling.sbs
   - alpn:
       - h3
     auth-str: dongtaiwang.com
@@ -36,7 +6,7 @@ proxies:
     country: "\U0001F1FA\U0001F1F8US"
     delay: 1248
     down: '100'
-    name: "\U0001F1FA\U0001F1F8US_1|5.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|3.1MB/s"
     port: 38845
     protocol: udp
     server: 208.87.243.151
@@ -51,7 +21,7 @@ proxies:
     auth_str: dongtaiwang.com
     delay: 1204
     down: 55
-    name: "\U0001F1F3\U0001F1F1NL_1|1.9MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -60,41 +30,6 @@ proxies:
     type: hysteria
     udp: true
     up: 11
-  - delay: 2294
-    name: "\U0001F1F0\U0001F1F7KR_3|1.3MB/s"
-    network: ws
-    port: 60001
-    server: 119.65.139.101
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x@节点狂魔
-    servername: gaosir.unfeeling.sbs
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
-    network: ws
-    port: 443
-    server: 1password.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-    ws-opts:
-      headers:
-        Host: rayan-007.foton.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: rAyAn-007.fOtOn.dPdNs.oRg
 rule-providers:
   private:
     url: >-
